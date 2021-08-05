@@ -20,6 +20,14 @@ namespace SupportForDads.Controllers
             return View();
         }
 
+        [Authorize]
+        public ActionResult Accounts()
+        {
+            ViewBag.Message = "Your account profile page.";
+
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
