@@ -58,11 +58,11 @@ namespace SupportForDads
             //   appId: "",
             //   appSecret: "");
 
-            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            {
-                ClientId = "86282883070-mc5rf5joo89pd77iren76e1rddelt3fu.apps.googleusercontent.com",
-                ClientSecret = "BnHV2GytzzrvsxSJZxGPly7p"
-            });
+            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            //{
+            //    ClientId = "86282883070-mc5rf5joo89pd77iren76e1rddelt3fu.apps.googleusercontent.com",
+            //    ClientSecret = "BnHV2GytzzrvsxSJZxGPly7p"
+            //});
         }
     }
 }

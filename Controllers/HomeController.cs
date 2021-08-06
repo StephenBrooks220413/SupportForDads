@@ -20,10 +20,9 @@ namespace SupportForDads.Controllers
             return View();
         }
 
-        [Authorize]
-        public ActionResult Accounts()
+        public ActionResult Resources()
         {
-            ViewBag.Message = "Your account profile page.";
+            ViewBag.Message = "Resources for Dads Page.";
 
             return View();
         }
