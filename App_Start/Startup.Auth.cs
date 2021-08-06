@@ -47,8 +47,8 @@ namespace SupportForDads
 
             // Uncomment the following lines to enable logging in with third party login providers
             //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            //    clientId: "77106408-afe7-4451-8926-2466666c5ca9",
+            //    clientSecret: "ee0db164-4e99-4bfd-b0e0-928c9f850837");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
@@ -58,11 +58,11 @@ namespace SupportForDads
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "86282883070-mc5rf5joo89pd77iren76e1rddelt3fu.apps.googleusercontent.com",
+                ClientSecret = "BnHV2GytzzrvsxSJZxGPly7p"
+            });
         }
     }
 }
